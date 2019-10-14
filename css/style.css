@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Roboto");
+
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	font-family: 'crimson+text', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: rgb(240,240,240);
+	align-content: center;
+}
+
+h1, h2, h3, h4 {
+	align-content: center;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+h1	{color: white;
+    font-family: crimson text;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 100px;
+}
+
+h2 {color: white;
+	font-family: crimson text;
+	letter-spacing: 5px;
+	font-size: 20px ;
+	text-transform: uppercase;
+ }
+
+h3 {color: white;
+	font-family: crimson text;
+	letter-spacing: 5px;
+	font-size: 40px ;
+	padding: 30px;
+    text-align: center;
+	text-transform: uppercase;
+}
+
+h4 {color: black;
+	font-family: crimson text;
+	letter-spacing: 1px;
+	font-size: 14px ;
+	text-transform: none;
+	align-content: center;
+
+}
+
+p { color: white;
+    text-transform: inherit;
+    margin-bottom: 50px;
+    padding: 25px;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+a {text-decoration: none;
+}
+
+ img{
+ 	width: 200px;
+ }
+
